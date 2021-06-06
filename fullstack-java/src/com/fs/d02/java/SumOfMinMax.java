@@ -18,8 +18,6 @@ public class SumOfMinMax {
 					maximumNo = arr[i];
 				}
 			}
-			
-			
 		}
 		System.out.println("Max - " + maximumNo);
 		System.out.println("Min - " + minimumNo);
