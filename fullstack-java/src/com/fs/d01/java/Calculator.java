@@ -1,3 +1,4 @@
+package com.fs.d01.java;
 
 public class Calculator {
 
