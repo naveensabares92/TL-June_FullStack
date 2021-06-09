@@ -9,14 +9,14 @@ public class SquareRootCalculation {
 		double y2=3;
 
 		double resultingNumber;
-		int squareRoot;
 		
 		resultingNumber = ((x1+x2) * (x1+x2)) + ((y1+y2) * (y1+y2));
+		int squareRoot = (int) (Math.sqrt(resultingNumber));
 		
-		System.out.println(resultingNumber);
+		System.out.println("Square root of " + resultingNumber + " "
+				+ "converted to integer is: " + squareRoot);
 		
-		//TODO find square root 
-		
+		//To check on how to find square root not using Math functions
 	}
 
 }

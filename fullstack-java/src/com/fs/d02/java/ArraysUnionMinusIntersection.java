@@ -7,7 +7,6 @@ public class ArraysUnionMinusIntersection {
 		int[] arr1 = {1,2,3,4,10};
 		int[] arr2 = {3,4,5,6,10};
 
-		
 		String[] unionArr =  ArraysUnion.getUnionOfArrays(arr1, arr2);
 		String[] interSectionArr = ArraysIntersection.getInterSectionOfArrays(arr1, arr2);
 		
