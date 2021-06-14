@@ -33,8 +33,7 @@ public class StringEncryption {
 	public static char getEncryptionChar(char characterToEncrypt) {
 		if(characterToEncrypt == ' ') {
 			return ' ';
-		}
-		if(characterToEncrypt == 'Z') {
+		} else if(characterToEncrypt == 'Z') {
 			return 'A';
 		} else if(characterToEncrypt == 'z' ) {
 			return 'a';
