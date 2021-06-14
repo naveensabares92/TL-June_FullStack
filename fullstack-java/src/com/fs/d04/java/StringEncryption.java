@@ -14,7 +14,7 @@ public class StringEncryption {
 
 		System.out.println("Un-Encrypted value: " + unEncryptedStr);
 		
-		String ENCRYPTEDVALUE = "";
+		String encryptedValue = "";
 		char[] arr = unEncryptedStr.toCharArray();
 		
 		for(int i = 1; i <= arr.length; i++) {
@@ -24,10 +24,10 @@ public class StringEncryption {
 		}
 		
 		for (char c : arr) {
-			ENCRYPTEDVALUE = ENCRYPTEDVALUE+String.valueOf(c);
+			encryptedValue = encryptedValue+String.valueOf(c);
 		}
 		
-		return ENCRYPTEDVALUE;
+		return encryptedValue;
 	}
 	
 	public static char getEncryptionChar(char characterToEncrypt) {
