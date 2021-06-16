@@ -10,12 +10,12 @@ public class ElectronicGadgets {
 		this.gadgetName = gadgetName;
 		this.buyingPrice = buyingPrice;
 		this.sellingPrice = sellingPrice;
-		System.out.println("Gadget- '" + this.gadgetName + "' price details: \n");
-		System.out.println("Buying price is " + this.buyingPrice + " Selling price is " + this.sellingPrice);
+		System.out.println("Gadget Name: '" + this.gadgetName + "' - Price details: \n");
+		System.out.println("Buying price: " + this.buyingPrice + ",Selling price: " + this.sellingPrice);
 	}
 
 	public static void main(String[] args) {
-		ElectronicGadgets name = new ElectronicGadgets("fan", 20.54, 30.50);
+		new ElectronicGadgets("fan", 20.54, 30.50);
 	}
 	
 }
