@@ -50,13 +50,13 @@ public class ToyProfitCalculation {
 		double profitPercentage = 0;
 		double lossPercentage = 0;
 		DecimalFormat df = new DecimalFormat("#.##");
-		buyingPricePerPiece = this.costPricePerDozen / 12;
+		buyingPricePerPiece = costPricePerDozen / 12;
 		
-		if((this.sellingPricePerPiece) > buyingPricePerPiece) {
-			profitPercentage = ((this.sellingPricePerPiece - buyingPricePerPiece)/ buyingPricePerPiece) * 100;
+		if((sellingPricePerPiece) > buyingPricePerPiece) {
+			profitPercentage = ((sellingPricePerPiece - buyingPricePerPiece)/ buyingPricePerPiece) * 100;
 			return Double.valueOf(df.format(profitPercentage));
 		} else {
-			lossPercentage = ((buyingPricePerPiece - this.sellingPricePerPiece) / this.sellingPricePerPiece) * 100;
+			lossPercentage = ((buyingPricePerPiece - sellingPricePerPiece) / sellingPricePerPiece) * 100;
 			return Double.valueOf(df.format(lossPercentage));
 		}
 	}
