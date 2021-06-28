@@ -21,6 +21,6 @@ public class Bird {
 		
 		System.out.println("Current Bird Speed; " +birdObj.getSpeed());
 		
-		birdObj.stopFlying();	
+		birdObj.stopFlying();
 	}
 }

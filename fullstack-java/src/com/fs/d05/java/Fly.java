@@ -3,7 +3,7 @@ package com.fs.d05.java;
 
 public interface Fly {
 
-	int DEFAULT_SPEED = 50;
+	final static int DEFAULT_SPEED = 50;
 	
 	void startFlying();
 	
@@ -13,5 +13,5 @@ public interface Fly {
 	
 	int increaseSpeed(int speedToIncrease);
 	
-	int decreaseSpeed(int speedToDecrease);
+	int decreaseSpeed(int speedToDecrease);	
 }
