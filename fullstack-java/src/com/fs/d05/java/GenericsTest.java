@@ -11,13 +11,16 @@ public class GenericsTest {
 		list.add("Leaf");
 		list.add("LeafTest");
 		
-		GenericsTryOut<K, GenderEnum.Gender> genericTest = new GenericsTryOut<>();
-		genericTest.display(1, "TestLeaf", GenderEnum.Gender.MALE);
-		
-		genericTest.display(new K(), GenderEnum.Gender.MALE);
-		
-		GenericsTryOut<K, T> genericTest1 = new GenericsTryOut<>();
-		genericTest1.display(new K(), new T());
+//		GenericsTryOut<K, GenderEnum.Gender> genericTest = new GenericsTryOut<>();
+//		genericTest.display(1, "TestLeaf", GenderEnum.Gender.MALE);
+//		
+//		genericTest.display(new K(), GenderEnum.Gender.MALE);
+//		
+//		GenericsTryOut<K, T> genericTest1 = new GenericsTryOut<>();
+//		genericTest1.display(new K(), new T());
+//		
+		GenericsTryOut genericTest2 = new GenericsTryOut();
+		genericTest2.display("Test");
 	}
 	
 	public static class GenderEnum {
